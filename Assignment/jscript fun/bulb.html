@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript example</title>
+  </head>
+  <body>
+    <h1>My Javascript Example</h1>
+    <script>
+      function light(sw) 
+      {
+        let pic;
+        if (sw == 0) {
+          pic = "pic_bulboff.gif";
+        } else {
+          pic = "pic_bulbon.gif";
+        }
+        document.getElementById("myImage").src = pic;
+      }
+    </script>
+
+    <img
+      id="myImage"
+      src="pic_bulboff.gif"
+      alt="bulbOff"
+      height="200px"
+      width="200px"
+    />
+
+    <p>
+      <button type="button" onclick="light(1)">LightOn</button>
+      <button type="button" onclick="light(0)">LightOff</button>
+    </p>
+  </body>
+</html>
