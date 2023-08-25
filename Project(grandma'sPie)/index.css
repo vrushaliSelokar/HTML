@@ -9,14 +9,7 @@ body{
    
 }
 
-.imag{
-    float: auto; 
-    margin: 20px;
-    border:2px solid black;
-    border-radius:25px;
-    border-style: outset;
 
-}
 
 h1{
     background-color: #F0F0F0 ;
