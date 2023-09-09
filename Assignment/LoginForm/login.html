@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        
+        body{
+            background-color: black;
+            margin: 0;
+            box-sizing: border-box;
+            overflow:hidden;
+            font-family: calibri;
+            font-weight: lighter;
+        }
+        .form_bg{
+            margin-top:100px;
+            margin-bottom: 100px;
+            background-color: #fc035a;
+            padding: 100px;
+        }
+        .frm{
+            border: none;
+            border-radius: 5px;
+            background-color: aliceblue;
+            margin: auto;
+            width:40%;
+            overflow: hidden;
+        }
+        .frm input{
+            border:none;
+            margin:10px 10px 0 10px;
+            font-size: 25px;
+            border-bottom: 2px solid gray;
+            text-align: left;
+            display:block;
+            padding:10px;
+            width:90%;
+        }
+        .frm button{
+            padding:15px;
+            font-size: 25px;
+            width:50%;
+            float: left;
+            margin-top: 10px;
+            color:#95959e;
+            border: none;
+        }
+        #active{
+            background-color: #3a3569;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="form_bg">
+            <div class="frm">
+                <h1 style="margin-left:10px">Login</h1>
+                <input type="text" placeholder="EMAIL">
+                <input type="password" placeholder="PASSWORD">
+                <p style="font-size: 25px; text-align: center;color:#95959e">FORGOT YOUR PASSWORD?</p>
+                <button type="button" value="register">REGISTER</button>
+                <button type="button" value="signin" id="active">SIGN IN</button>
+            </div>
+        </div> 
+    </div>    
+</body>
+</html>
